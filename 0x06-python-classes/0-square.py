@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Defines a square """
+"""Square Class"""
 
 class Square:
-    """empty square"""
+    """Empty Square"""
     pass
