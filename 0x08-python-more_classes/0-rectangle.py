@@ -4,5 +4,7 @@ Defines an Empty Class
 """
 
 class Rectangle:
-    """Represents an Empty Class Rectangle"""
+    """
+    Represents an Empty Class Rectangle
+    """
     pass
