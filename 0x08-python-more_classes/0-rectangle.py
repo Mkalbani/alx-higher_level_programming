@@ -3,6 +3,7 @@
 Defines an Empty Class
 """
 
+
 class Rectangle:
     """
     Represents an Empty Class Rectangle
