@@ -1,0 +1,38 @@
+A test for adding two integer
+
+>>> add_integer = __import__("0-add_integer").add_integer
+
+# Addition Test
+>>> add_integer(0)
+98  
+>>> add_integer(1)
+99  
+>>> add_integer(1.5)
+99  
+>>> add_integer(1.5, 2)
+3   
+>>> add_integer(2, 2)
+4   
+
+#Error Raised
+>>> add_integer("")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer([])
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer(1, 3 + 1j)
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+>>> add_integer(1, [])
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+>>> add_integer(1, "")
+...
+TypeError: b must be an integer
+
+
