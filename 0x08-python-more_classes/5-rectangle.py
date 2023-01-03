@@ -60,3 +60,13 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return("".join(rect))
+
+    def __repr__(self):
+        """string representation of rectangle for reproduction"""
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+
+    def __del__(self):
+        """Print a message for every deletion of
+        the rectangle.
+        """
+        print("Bye rectangle...")
